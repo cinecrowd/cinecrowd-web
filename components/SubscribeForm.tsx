@@ -30,8 +30,8 @@ const SubscribeForm = () => {
       const timer = setTimeout(() => {
         setShowMessage(false);
         setIsExist(false);
-        setEmail('');
-        formAction(undefined)
+        // setEmail('');
+        formAction(undefined);
       }, 3000);
       return () => clearTimeout(timer);
     }
@@ -57,6 +57,7 @@ const SubscribeForm = () => {
               <input
                 type="email"
                 name="email"
+                required
                 className="custom-substack-widget csw-theme-orange-input"
                 placeholder="example@gmail.com"
                 onChange={(e) => setEmail(e.target.value)}
