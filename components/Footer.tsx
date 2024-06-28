@@ -38,10 +38,10 @@ const Footer = () => {
         <div className="mx-auto text-center">
           <div className="flex w-full flex-col items-center gap-2 text-center lg:flex-row lg:items-center lg:gap-0 lg:text-left">
             <div className="m-auto lg:w-full">
-              <a href="/index.html" className="flex items-center">
-                <img src="/images/logo.webp" className="mr-3 h-6 sm:h-9" alt="CineCrowd Logo" />
-                <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">CineCrowd</span>
-              </a>
+              <div className="flex items-center">
+                <img src="/images/logo.webp" className="mr-1 h-7" alt="CineCrowd Logo" />
+                <span className="self-center text-md font-semibold whitespace-nowrap dark:text-white">CineCrowd</span>
+              </div>
             </div>
             <div className="m-auto lg:w-full text-end">
               <p className="text-white">{`© ${new Date().getFullYear()} • CineCrowd.xyz`}</p>

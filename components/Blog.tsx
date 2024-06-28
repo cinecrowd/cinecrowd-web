@@ -33,8 +33,7 @@ const Blog = () => {
               <p className="mt-3 text-gray-800 dark:text-neutral-200">
                 A New Standard in Bitcoin Tokenization
               </p>
-              <p
-                className="mt-5 inline-flex items-center gap-x-1 text-blue-600 decoration-2 group-hover:underline font-medium">
+              <p className="mt-5 inline-flex items-center gap-x-1 text-orange-500 decoration-2 group-hover:underline font-medium">
                 Read more
                 <FaAngleRight />
               </p>
@@ -61,8 +60,7 @@ const Blog = () => {
               <p className="mt-3 text-gray-800 dark:text-neutral-200">
                 The Challenges of Traditional Film Fundraising
               </p>
-              <p
-                className="mt-5 inline-flex items-center gap-x-1 text-blue-600 decoration-2 group-hover:underline font-medium">
+              <p className="mt-5 inline-flex items-center gap-x-1 text-orange-500 decoration-2 group-hover:underline font-medium">
                 Read more
                 <FaAngleRight />
               </p>
@@ -74,16 +72,19 @@ const Blog = () => {
             className="group relative flex flex-col w-full min-h-60 bg-[url('/images/future.svg')] bg-center bg-cover rounded-xl hover:shadow-lg transition"
           >
             <div className="flex-auto p-4 md:p-6">
-              <h3 className="text-xl text-white/90 group-hover:text-white ">
+              {/* <h3 className="text-xl text-white/90 group-hover:text-white ">
                 <span className="font-bold">Coming Soon</span>
-              </h3>
+              </h3> */}
             </div>
             <div className="pt-0 p-4 md:p-6">
-              <div
+              {/* <div
                 className="inline-flex items-center gap-2 text-sm font-medium text-white group-hover:text-white/70">
                 Visit the site
                 <FaAngleRight />
-              </div>
+              </div> */}
+              <h3 className="text-xl text-white/80 group-hover:text-white ">
+                <span className="font-bold">Coming Soon</span>
+              </h3>
             </div>
           </a>
         </div>
