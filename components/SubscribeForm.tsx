@@ -2,9 +2,7 @@
 
 import { useState, useEffect, FormEvent } from 'react';
 import { useFormState } from "react-dom";
-import { EnvelopeIcon } from '@heroicons/react/20/solid';
 import { addSubscriber } from '@/lib/actions';
-// import { useLocale } from 'next-intl';
 import confetti from 'canvas-confetti';
 
 const runConfetti = () => {
@@ -16,7 +14,6 @@ const runConfetti = () => {
 };
 
 const SubscribeForm = () => {
-  // const locale = useLocale();
   const [state, formAction] = useFormState(addSubscriber, undefined);
   const [email, setEmail] = useState('');
   const [isExist, setIsExist] = useState(false);
@@ -26,10 +23,7 @@ const SubscribeForm = () => {
     if (state === 'Subscriber saved successfully') {
       setShowMessage(true);
       setIsExist(false);
-      // setEmail('');
-      // const timer = setTimeout(() => setShowMessage(false), 3000);
       runConfetti();
-      // return () => clearTimeout(timer);
     } else if (state === 'Mail already exists') {
       setShowMessage(true);
       setIsExist(true);
