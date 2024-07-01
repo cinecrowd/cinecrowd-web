@@ -17,7 +17,7 @@ const Header = () => {
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <a
               type="button"
-              href='https://app.cinecrowd.xyz'
+              href='https://waitlist.cinecrowd.xyz'
               className="text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-orange-500 dark:hover:bg-orange-600 dark:focus:ring-orange-700"
             >
               Get started
