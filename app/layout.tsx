@@ -21,13 +21,13 @@ export const metadata: Metadata = {
     "Crowdfunding",
     "Fan Token",
   ],
-  authors: [
-    {
-      name: "Farokh Madah",
-      url: "https://t.me/FAR0KH",
-    },
-  ],
-  creator: "Pooyan Sedghi",
+  // authors: [
+  //   {
+  //     name: "Farokh Madah",
+  //     url: "https://t.me/FAR0KH",
+  //   },
+  // ],
+  // creator: "Pooyan Sedghi",
   openGraph: {
     type: "website",
     locale: "en_GB",
