@@ -20,7 +20,7 @@ const Header = () => {
               href='https://waitlist.cinecrowd.xyz'
               className="text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-orange-500 dark:hover:bg-orange-600 dark:focus:ring-orange-700"
             >
-              Get started
+              Join Waitlist
             </a>
             <button
               data-collapse-toggle="navbar-cta"
