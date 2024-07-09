@@ -25,7 +25,7 @@ const About = () => {
             Revolutionizing Film Funding with Ordinals and Runes
           </h3>
           <h4 className="text-lg font-normal tracking-tight text-slate-500">
-            At the heart of CineCrowd lies a bold vision to revolutionize the way films are funded and brought to life. We believe that the power of community, combined with the innovative capabilities of Bitcoin's Ordinals and Runes, can unlock new avenues for filmmakers to connect with their audience and secure the resources they need to turn their creative visions into reality.
+            At the heart of CineCrowd lies a bold vision to revolutionize the way films are funded and brought to life. We believe that the power of community, combined with the innovative capabilities of Bitcoin&apos;s Ordinals and Runes, can unlock new avenues for filmmakers to connect with their audience and secure the resources they need to turn their creative visions into reality.
           </h4>
         </div>
         <div className="grid w-full grid-flow-row justify-items-start gap-12 md:grid-cols-2 xl:gap-x-32">
