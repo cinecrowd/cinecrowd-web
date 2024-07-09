@@ -7,13 +7,11 @@ const Hero = () => {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div>
-            <h1 className="mt-4 text-4xl font-bold text-white lg:mt-8 sm:text-6xl xl:text-8xl">
-              Empower Films with Fan Tokens
+            <h1 className="text-5xl font-bold text-white mt-6 lg:mt-10 sm:text-6xl xl:text-8xl">
+              Community Driven Film Tokens on Bitcoin
             </h1>
-            <p className="mt-4 text-base text-gray-500 lg:mt-8 sm:text-xl">CineCrowd is a groundbreaking
-              Bitcoin-based platform that empowers fans to support and influence their favorite films
-              through valuable fan tokens. We bridge the gap between Bitcoin enthusiasts and visual
-              artists, fostering a new era of artistic expression and funding.
+            <p className="mt-6 text-base text-gray-500 lg:mt-10 sm:text-xl">
+              Are you a filmmaker looking for a new way to fund your projects? Or an investor interested in supporting filmmaking through Bitcoin? Introducing our innovative platform that harnesses the power of Bitcoin's Ordinals and Runes to revolutionize film fundraising.
             </p>
             <br />
             <div className="flex gap-4">

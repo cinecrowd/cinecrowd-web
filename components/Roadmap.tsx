@@ -5,11 +5,11 @@ const Roadmap = () => {
     <section className="antialiased" id="Roadmap">
       <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">
+          <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white mt-14 md:mt-0">
             Roadmap
           </h2>
         </div>
-        <ol className="relative border-s border-gray-200 dark:border-gray-700">
+        <ol className="relative border-s border-gray-200 dark:border-gray-700 max-w-[1000px] mx-auto mt-8">
           <li className="mb-10 ms-4">
             <div
               className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">

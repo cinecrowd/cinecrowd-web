@@ -34,7 +34,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="bg-slate-300 my-4 w-full h-[1px] hidden lg:block"></div>
+        <div className="bg-slate-500 my-4 w-full h-[1px] hidden lg:block"></div>
         <div className="mx-auto text-center">
           <div className="flex w-full flex-col items-center gap-2 text-center lg:flex-row lg:items-center lg:gap-0 lg:text-left">
             <div className="m-auto lg:w-full">

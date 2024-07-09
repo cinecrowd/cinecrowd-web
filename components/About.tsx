@@ -8,7 +8,7 @@ const About = () => {
     >
       <div className="flex w-full min-w-full max-w-lg flex-1 items-center justify-center rounded-2xl lg:min-w-[370px]">
         <div className="flex max-w-lg flex-col gap-4">
-          <h3 className="text-white text-4xl font-semibold">Beyond Engagement</h3>
+          <h3 className="text-white text-3xl sm:text-4xl font-extrabold">Beyond Engagement</h3>
         </div>
         <img
           src="/images/Gradients.svg"
@@ -21,11 +21,11 @@ const About = () => {
       </div>
       <div className="flex flex-col gap-6 lg:gap-12">
         <div className="flex max-w-lg flex-col gap-4">
-          <h3 className="text-white text-4xl font-semibold tracking-tight">
-            CineCrowd is an innovative Bitcoin-powered Film Crowdfunding and Fan Tokens platform
+          <h3 className="text-white text-3xl sm:text-4xl font-semibold tracking-tight">
+            Revolutionizing Film Funding with Ordinals and Runes
           </h3>
           <h4 className="text-lg font-normal tracking-tight text-slate-500">
-            Connect with filmmakers, access exclusive content, and be a part of a dynamic community where your support makes a real impact.
+            At the heart of CineCrowd lies a bold vision to revolutionize the way films are funded and brought to life. We believe that the power of community, combined with the innovative capabilities of Bitcoin's Ordinals and Runes, can unlock new avenues for filmmakers to connect with their audience and secure the resources they need to turn their creative visions into reality.
           </h4>
         </div>
         <div className="grid w-full grid-flow-row justify-items-start gap-12 md:grid-cols-2 xl:gap-x-32">
@@ -38,8 +38,8 @@ const About = () => {
             </svg>
             <div
               className="flex max-w-[280px] flex-col items-center gap-4 text-center md:items-start md:gap-6 md:text-start">
-              <p className="text-white text-xl font-semibold tracking-tight">Decentralized Finance</p>
-              <p className="text-slate-500">Leveraging DeFi for secure and transparent fundraising on Cinecrowd.
+              <p className="text-white text-xl font-semibold tracking-tight">Community-Driven Approach</p>
+              <p className="text-slate-500">CineCrowd empowers filmmakers to engage directly with their audience, fostering a collaborative environment for film development and funding.
               </p>
             </div>
           </div>
@@ -52,9 +52,9 @@ const About = () => {
             </svg>
             <div
               className="flex max-w-[280px] flex-col items-center gap-4 text-center md:items-start md:gap-6 md:text-start">
-              <p className="text-white font-semibold tracking-tight">Fan Tokens</p>
+              <p className="text-white text-xl font-semibold tracking-tight">Ordinal-Based Tokens</p>
               <p className="text-slate-500">
-                Engaging film fans with exclusive fan tokens to support and interact with projects.
+                Leverage the unique capabilities of Bitcoin Ordinals to create and distribute digital tokens that represent ownership or access to your film projects.
               </p>
             </div>
           </div>
@@ -71,9 +71,9 @@ const About = () => {
             </svg>
             <div
               className="flex max-w-[280px] flex-col items-center gap-4 text-center md:items-start md:gap-6 md:text-start">
-              <p className="text-white text-xl font-semibold tracking-tight">Runes</p>
+              <p className="text-white text-xl font-semibold tracking-tight">Rune-Powered Fundraising</p>
               <p className="text-slate-500">
-                Utilizing Runes for efficient tokenization and transactions within the Cinecrowd ecosystem.
+                Utilize the versatility of Bitcoin Runes to design and execute sophisticated fundraising campaigns, unlocking new avenues for film financing.
               </p>
             </div>
           </div>
@@ -88,9 +88,10 @@ const About = () => {
             </svg>
             <div
               className="flex max-w-[280px] flex-col items-center gap-4 text-center md:items-start md:gap-6 md:text-start">
-              <p className="text-white text-xl font-semibold tracking-tight">Bitcoin</p>
-              <p className="text-slate-500">Integrating Bitcoin for secure, global payments and investments in
-                independent films.</p>
+              <p className="text-white text-xl font-semibold tracking-tight">Secure and Transparent</p>
+              <p className="text-slate-500">
+                CineCrowd operates on the robust and decentralized Bitcoin blockchain, ensuring the safety and transparency of all transactions.
+              </p>
             </div>
           </div>
         </div>

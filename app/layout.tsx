@@ -6,20 +6,20 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Empower your fans with CineCrowd",
+    default: "Community Driven Film Tokens on Bitcoin",
     template: `%s | CineCrowd`,
   },
-  metadataBase: new URL("https://cinecrowd.xyz"),
-  description: "CineCrowd is a decentralized platform that empowers fans to support and influence their favorite films through valuable fan tokens.",
+  metadataBase: new URL("https://www.cinecrowd.xyz/"),
+  description: "Revolutionizing Film Funding with Ordinals and Runes",
   keywords: [
     "Bitcoin",
-    "Runes",
+    "Rune",
     "Ordinal",
     "Cinema",
     "Movie",
     "Film",
     "Crowdfunding",
-    "Fan Token",
+    "Fundraising",
   ],
   // authors: [
   //   {
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://cinecrowd.xyz",
-    title: "Empower your fans with CineCrowd",
-    description: "CineCrowd is a decentralized platform that empowers fans to support and influence their favorite films through valuable fan tokens.",
+    url: "https://www.cinecrowd.xyz/",
+    title: "Community Driven Film Tokens on Bitcoin",
+    description: "Revolutionizing Film Funding with Ordinals and Runes",
     siteName: "CineCrowd",
     images: [
       {
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "CineCrowd",
-    description: "CineCrowd is a decentralized platform that empowers fans to support and influence their favorite films through valuable fan tokens.",
+    description: "Revolutionizing Film Funding with Ordinals and Runes",
     images: [`/og.png`],
     creator: "@cinecrowd_xyz",
   },
