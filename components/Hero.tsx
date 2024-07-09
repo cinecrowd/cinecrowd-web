@@ -11,7 +11,7 @@ const Hero = () => {
               Community Driven Film Tokens on Bitcoin
             </h1>
             <p className="mt-6 text-base text-gray-500 lg:mt-10 sm:text-xl">
-              Are you a filmmaker looking for a new way to fund your projects? Or an investor interested in supporting filmmaking through Bitcoin? Introducing our innovative platform that harnesses the power of Bitcoin's Ordinals and Runes to revolutionize film fundraising.
+              Are you a filmmaker looking for a new way to fund your projects? Or an investor interested in supporting filmmaking through Bitcoin? Introducing our innovative platform that harnesses the power of Bitcoin&apos;s Ordinals and Runes to revolutionize film fundraising.
             </p>
             <br />
             <div className="flex gap-4">
